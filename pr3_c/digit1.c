@@ -4,7 +4,7 @@ int main(){
     int n,last,sum;
     printf("enter a number :");
     scanf("%d",  &n);
-    last=n/10;
+    last=n%10;
 
     while(n>9)
     {

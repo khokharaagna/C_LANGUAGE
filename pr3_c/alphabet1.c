@@ -2,15 +2,15 @@
 #include<conio.h>
 
 int main(){
-    int a=65;
-    while(a<=90)
+    int asci=65;
+    while(asci<=90)
     {
 
-    if(a!=66 && a!=67 && a!=68){
-    printf("%c  ",a);
+    
+    printf("%c  ",asci);
 
-    }
-    a++;
+    
+    asci+=4;
     }
     return 0;
 }
