@@ -7,8 +7,8 @@ int main(){
 if(i==1||i==4){
 printf("* * * * * *\n");
 }else{
-printf("*         *\n");    
+    printf("*         *\n");
 }
-}
+    }
     return 0;
 }
